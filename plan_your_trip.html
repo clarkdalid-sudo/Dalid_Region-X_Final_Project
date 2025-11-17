@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Plan Your Trip — Northern Mindanao</title>
+<link rel="stylesheet" href="css/styling.css">
+</head>
+<body>
+<header class="site-header small">
+  <h1>Plan Your Trip</h1>
+  <nav class="main-nav" aria-label="Primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="history.html">History &amp; Culture</a></li>
+      <li><a href="plan_your_trip.html" aria-current="page">Plan Your Trip</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="section card box-with-bg">
+    <img class="bg-element" src="assets/download (1).jpg" alt="Island view for itinerary" aria-hidden="true">
+    <h2>3-Day Sample Itinerary</h2>
+
+    <div class="table-wrap">
+      <table class="itinerary" aria-describedby="itinerary-desc">
+        <caption id="itinerary-desc" class="sr-only">Three day sample itinerary with times, transport and notes</caption>
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Morning</th>
+            <th scope="col">Afternoon</th>
+            <th scope="col">Evening</th>
+            <th scope="col">Transport</th>
+            <th scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Day 1 — Camiguin</td>
+            <td>Arrive; island boat transfer; White Island (2–3 hrs)</td>
+            <td>Sunken Cemetery view &amp; Katibawasan Falls (lunch nearby)</td>
+            <td>Seaside dinner; relax</td>
+            <td>Ferry / banca</td>
+            <td>Bring sun protection; check boat schedule</td>
+          </tr>
+          <tr>
+            <td>Day 2 — Bukidnon</td>
+            <td>Travel to Bukidnon (early), Dahilayan Adventure Park — zipline</td>
+            <td>Pine forest viewpoints; light trek and photos</td>
+            <td>Local market or town dining</td>
+            <td>Bus / private van</td>
+            <td>Wear closed shoes for activities</td>
+          </tr>
+          <tr>
+            <td>Day 3 — Cagayan de Oro / Iligan</td>
+            <td>Mapawa Nature Park — river activities (tubing, short hikes)</td>
+            <td>Transfer to Iligan; Tinago Falls visit</td>
+            <td>Return to CDO; sample local cuisine</td>
+            <td>Private van / car</td>
+            <td>Allow extra travel time for mountain roads</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section card box-with-bg">
+    <img class="bg-element" src="assets/NTOEXJUHARMXRNGZB7AM2SZIOQ.jpg" alt="Travel tips background" aria-hidden="true">
+    <h2>Travel Tips</h2>
+    <ul>
+      <li>Book inter-island transfers ahead during peak season.</li>
+      <li>Bring cash in smaller towns — ATMs can be limited.</li>
+      <li>Respect local customs and always ask before photographing people in traditional communities.</li>
+    </ul>
+  </section>
+
+  <section class="section card box-with-bg">
+    <img class="bg-element" src="assets/naialuggage-1729746437.jpg" alt="Packing checklist background" aria-hidden="true">
+    <h2>Packing Checklist</h2>
+    <ul class="checklist">
+      <li>Light breathable clothes</li>
+      <li>Rain jacket / light poncho</li>
+      <li>Swimwear and quick-dry towel</li>
+      <li>Hiking shoes or sturdy sandals</li>
+      <li>Sunscreen, insect repellent, basic first-aid</li>
+    </ul>
+  </section>
+
+  <section class="section contact-form card box-with-bg">
+    <img class="bg-element" src="assets/360_F_168404449_G7FjJIj3rWH0E52hefyC0gx9aaaQjutp.jpg" alt="Contact background" aria-hidden="true">
+    <h2>Contact &amp; Booking Questions</h2>
+    <form action="#" method="post" aria-label="Contact form">
+      <label for="fullname">Full Name
+        <input id="fullname" type="text" name="fullname" required>
+      </label>
+      <ul></ul>
+
+      <label for="email">Email Address
+        <input id="email" type="email" name="email" required>
+      </label>
+      <ul></ul>
+
+      <label for="visitdate">Planned Visit Date
+        <input id="visitdate" type="date" name="visitdate">
+      </label>
+      <ul></ul>
+
+      <label for="travelers">Number of Travelers
+        <input id="travelers" type="number" name="travelers" min="1" value="1">
+      </label>
+      <ul></ul>
+
+      <label for="questions">Questions/Queries:
+        <textarea id="questions" name="questions" rows="4"></textarea>
+      </label>
+      <ul></ul>
+
+      <div style="margin-top:.5rem">
+        <button type="submit" class="btn">Send</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Student Name: Dalid, Clark Christian B.</p>
+  <p>Contact: <a href="mailto:tourism@regionx.ph">tourism@regionx.ph</a></p>
+  <p>&copy; <span id="year"></span> Northern Mindanao Tourism</p>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
